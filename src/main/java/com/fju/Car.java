@@ -7,7 +7,7 @@ public class Car {
 
     public Car(String id) {
         this.id = id;
-        enter = String.cu
+        enter = System.currentTimeMillis();
 
     }
 }
